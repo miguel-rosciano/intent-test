@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <a href="intent://scan/#Intent;scheme=duolingo;package=com.duolingo;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails?id=com.duolingo;end">Duolingo</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intent test</title>
+    <style>
+      body {
+        background-color: #212121;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      a {
+        width: fit-content;
+        color: white;
+        font: 18px Arial;
+        padding: 10px 20px;
+        background-color: purple;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="intent://scan/#Intent;scheme=duolingo;package=com.duolingo;S.browser_fallback_url=https://play.google.com/store/apps/details?id=com.duolingo;end"
+    >
+      Duolingo
+    </a>
+  </body>
 </html>
